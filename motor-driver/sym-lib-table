@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TPS61085T")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS61085T.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8835")(type "KiCad")(uri "${KIPRJMOD}/libraries/DRV8835.kicad_sym")(options "")(descr ""))
+)

@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "ATmega32u4 Development Board")
-    (date "2023-02-23")
+    (title "ATmega32u4 Development Micro Board")
+    (date "2023-05-28")
     (rev "v1.0.0")
     (company "Shadman Habib")
   )
