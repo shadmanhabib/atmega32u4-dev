@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/shadmanhabib/Documents/Personal/Projects/Controller Boards/atmega32u4-dev/motor-driver/motor-driver.kicad_sch</source>
+    <date>Sunday, 28 May 2023 at 11:35:25 am</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LiPo Boost and Motor Driver Extension Board</title>
+        <company>Shadman Habib</company>
+        <rev>v1.0.0</rev>
+        <date>2023-05-28</date>
+        <source>motor-driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f34dc95a-09dd-4e1e-bdbe-0c80b01ad5ab</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>465e18a6-9790-4a3d-abf8-72f5b626b3ad</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8aeca552-275c-44a7-b31c-1ef8b2c12435</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ac3e0e8-cf79-47ac-8027-25b178d96362</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14244bf5-255f-4900-9f80-d3521de5a756</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1.1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe87b71f-c868-4986-8ad0-c55aabae50a8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46253482-33a5-4052-9690-5ce30bc0c140</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>356ebbd2-8873-4f41-935d-39b48da91770</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1baa23f1-3d86-4dc0-96b4-3c6eede91638</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a07440f-952c-42df-8890-2fee33576553</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c87f01fb-b9e6-4dc4-b83a-180b18177607</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e682a843-9cd7-494c-8cb3-5baddb618902</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de0502af-1374-434a-8e21-153917721b46</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>471c06bd-f380-41b5-809f-ed4ac404093f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2be03f53-4cc2-4aaa-9e39-243f061ccc85</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>30k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46013bdc-3014-485b-bfed-f75155203562</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>130k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>756f4482-c5de-495c-b717-015bf9aa53c4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>18.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3124ab6a-328b-4725-b3a1-73dcfb59050b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bc5588d-7e9a-41f1-8ab1-69c50c158b29</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aed3596-b710-4c61-b341-c41852886aab</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS61085T</value>
+      <footprint>Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</footprint>
+      <libsource lib="TPS61085T" part="TPS61085T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97406cfb-5a39-43c6-b39d-e9eb08fac99a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>DRV8835</value>
+      <footprint>Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65</footprint>
+      <libsource lib="DRV8835" part="DRV8835" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="motor-driver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfabf564-2e17-4502-bb04-eca1ae5ba4f2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DRV8835" part="DRV8835">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8835</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VM" type="power_in"/>
+        <pin num="2" name="AOUT1" type="power_out"/>
+        <pin num="3" name="AOUT2" type="power_out"/>
+        <pin num="4" name="BOUT1" type="power_out"/>
+        <pin num="5" name="BOUT2" type="power_out"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="BIN2/EN" type="input"/>
+        <pin num="8" name="BIN1/PH" type="input"/>
+        <pin num="9" name="AIN2/EN" type="input"/>
+        <pin num="10" name="AIN1/PH" type="input"/>
+        <pin num="11" name="MODE" type="input"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="Pad" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS61085T" part="TPS61085T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61085T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FB" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SW" type="power_out"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="FREQ" type="passive"/>
+        <pin num="8" name="SS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="DRV8835">
+      <uri>/Users/shadmanhabib/Documents/Personal/Projects/Controller Boards/atmega32u4-dev/motor-driver/libraries/DRV8835.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="TPS61085T">
+      <uri>/Users/shadmanhabib/Documents/Personal/Projects/Controller Boards/atmega32u4-dev/motor-driver/libraries/TPS61085T.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/AIN1">
+      <node ref="U2" pin="10" pinfunction="AIN1/PH" pintype="input"/>
+    </net>
+    <net code="3" name="/AIN2">
+      <node ref="U2" pin="9" pinfunction="AIN2/EN" pintype="input"/>
+    </net>
+    <net code="4" name="/BIN1">
+      <node ref="U2" pin="8" pinfunction="BIN1/PH" pintype="input"/>
+    </net>
+    <net code="5" name="/BIN2">
+      <node ref="U2" pin="7" pinfunction="BIN2/EN" pintype="input"/>
+    </net>
+    <net code="6" name="/M1+">
+      <node ref="U2" pin="2" pinfunction="AOUT1" pintype="power_out"/>
+    </net>
+    <net code="7" name="/M1-">
+      <node ref="U2" pin="3" pinfunction="AOUT2" pintype="power_out"/>
+    </net>
+    <net code="8" name="/M2+">
+      <node ref="U2" pin="4" pinfunction="BOUT1" pintype="power_out"/>
+    </net>
+    <net code="9" name="/M2-">
+      <node ref="U2" pin="5" pinfunction="BOUT2" pintype="power_out"/>
+    </net>
+    <net code="10" name="/Vboost">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Vin">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="FREQ" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="Pad" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SS" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="16" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="MODE" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="21" name="VDC">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Vdrive">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VM" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
